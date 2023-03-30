@@ -30,7 +30,7 @@ public class App
 		Product e = new Product("Coffee Thermos", "Hot Cold Company", 30.99);
 		
 		//creating a new shop for products to be put into
-		OnlineShop Shop1 = new OnlineShop();
+		Shop Shop1 = new OnlineShop();
 
 		//adding products to the online shop
 		Shop1.addNewProduct(a);
